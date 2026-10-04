@@ -1,5 +1,7 @@
 # CorroborAI
 
+Here is the link of the video demo : https://youtu.be/JZxD_AKfgSI
+
 **CorroborAI is an investigation assistant for the reconciliation between Système A — RH and Système B — Temps**
 (Loto-Québec *CorroborIA* challenge).
 
