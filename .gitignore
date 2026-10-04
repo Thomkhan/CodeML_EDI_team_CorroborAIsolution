@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Original challenge files: NEVER published. Place them locally in data/.
+# ---------------------------------------------------------------------------
+data/
+# defensive: challenge files copied anywhere else in the tree
+Employe_*Anonymise*.xlsx
+Mapping.xlsx
+Motif de la situation*.xlsx
+détail_du_poste.xlsx
+consignes.pdf
+*.pptx
+
+# ---------------------------------------------------------------------------
+# Runtime / human-review state (the submitted app starts from a clean baseline)
+# ---------------------------------------------------------------------------
+outputs/uploads/
+outputs/human_decisions.csv
+outputs/accepted_corrections.csv
+outputs/accepted_corrections.xlsx
+destination_corrigee_candidate*.xlsx
+# per-dataset outputs written by the app for synthetic/uploaded datasets
+outputs/*/
+
+# Generated synthetic datasets (regenerate with: python -m src.synthetic --n 1000 --seed 42)
+synthetic_data/*/
+
+# ---------------------------------------------------------------------------
+# Python / environments / secrets
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+VenvCorroborAI/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Office lock files / OS noise
+~$*
+.DS_Store
+Thumbs.db
