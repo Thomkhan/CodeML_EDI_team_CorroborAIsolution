@@ -1,0 +1,6 @@
+# Outils locaux : génération de la feuille de capture, rendu synthétique,
+# étiquetage et évaluation en millimètres.
+# L'entraînement lui-même se fait sur Colab (voir notebook/train_unet.ipynb).
+opencv-contrib-python>=4.8
+numpy>=1.24
+pillow>=10.0
