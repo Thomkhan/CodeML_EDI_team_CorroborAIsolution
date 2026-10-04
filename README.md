@@ -1,0 +1,2 @@
+# CodeML_EDI_team_CorroborAIsolution
+Solution of CorroborAI challenge
